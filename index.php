@@ -11,4 +11,5 @@ require './vendor/autoload.php';
 use Frame\App;
 
 $o = new App();
+$o->setName('jackson');
 echo $o->getName();

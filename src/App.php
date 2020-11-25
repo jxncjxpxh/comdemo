@@ -9,8 +9,14 @@ namespace Frame;
 
 class App
 {
+    private $name;
+
     function getName() {
-        return 'this is name';
+        return $this->name;
+    }
+
+    function setName($name) {
+        $this->name = $name;
     }
 
 }
