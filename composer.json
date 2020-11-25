@@ -1,0 +1,17 @@
+{
+  "name": "jxncjxpxh/comdemo",
+  "type": "library",
+  "authors": [
+    {
+      "name": "jackson",
+      "email": "jxncjxpxh@163.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload":{
+    "psr-4":{
+      "Frame\\":"./src/"
+    }
+  }
+}
